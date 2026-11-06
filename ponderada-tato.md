@@ -1,6 +1,6 @@
-# Ponderada CC08: Do Pipeline ao Deadlock
-
 Nome completo: Bruno Gabriel Giordano Guilherme Kadayan | D1: 2 | D2: 6 | N: 4
+
+# Ponderada CC08: Do Pipeline ao Deadlock
 
 (considerando Bruno Gabriel como primeiro nome)
 
@@ -617,4 +617,20 @@ Para a pulseira Tato, considero a prevenção por ordem fixa de aquisição mais
 
 ## Parte B: Decisão do CTO
 
+### Memorando ao Conselho da Tato
 
+**Assunto: Escolha do processador para a produção da pulseira**
+
+Decido adotar a **Plataforma H com acelerador DSP** para a produção da pulseira Tato, priorizando o cumprimento do prazo de processamento, a previsibilidade do sistema e o menor custo de fabricação.
+
+Os cálculos da Parte A mostram que a Plataforma H, sem acelerador, leva 6,875 ms por amostra e não atende ao requisito. Entretanto, com o DSP, esse tempo cai para **3,575 ms**, ficando 1,425 ms abaixo do limite de 5 ms. Já a Plataforma V apresenta 4,327 ms no pior caso calculado, considerando o atraso do Linux. Assim, as duas opções atendem ao requisito no modelo analisado, mas a H com DSP oferece uma margem maior.
+
+O custo também pesa na decisão. A Plataforma H com DSP custa R$ 37 por unidade, enquanto a V custa R$ 70. Isso representa uma economia de R$ 33 por pulseira, ou R$ 66.000 em uma produção de 2.000 unidades, permitindo direcionar mais recursos para testes, suporte e acessibilidade.
+
+Por outro lado, essa escolha significa abrir mão das atualizações remotas (OTA) e da flexibilidade oferecida pelo Linux. Como o firmware da H precisa ser atualizado por cabo na assistência técnica, a empresa assume maiores custos de manutenção, enquanto os usuários podem enfrentar deslocamentos e demora na correção de problemas. Isso também representa um risco de segurança, especialmente se surgir alguma vulnerabilidade relacionada à comunicação Bluetooth.
+
+Para reduzir esses riscos, adotaria validação rigorosa dos comandos recebidos, atualizações de firmware autenticadas e um plano de assistência para correções críticas. Também exigiria testes de pior caso com sensor, vibração e BLE funcionando simultaneamente, pois os cálculos teóricos não substituem a validação do produto real.
+
+**Eu reconsideraria a escolha se os testes demonstrassem qualquer processamento acima de 5 ms em condições de pior caso**, ou se a manutenção por cabo impedisse a correção de uma vulnerabilidade crítica em até 30 dias.
+
+Considero que a Plataforma H com DSP oferece o melhor equilíbrio inicial entre custo, desempenho e segurança, desde que a empresa assuma a responsabilidade pela manutenção e pela validação contínua do dispositivo.

@@ -1,5 +1,7 @@
 # Ponderada CC08
 
+Aluno: Bruno Gabriel Giordano Guilherme Kadayan
+
 Implementação da questão A4 com um produtor, um consumidor e um buffer circular de quatro posições. Os programas usam Python 3 e somente a biblioteca padrão, principalmente o módulo `threading`.
 
 ## Execução

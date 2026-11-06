@@ -1,0 +1,13 @@
+﻿Versão 2 — sincronização correta com semáforos
+Buffer (N): 4
+Amostras previstas: 20000
+Amostras produzidas: 20000
+Amostras consumidas: 20000
+IDs únicos válidos consumidos: 20000
+Amostras perdidas: 0
+Amostras duplicadas: 0
+Leituras inválidas: 0
+IDs consumidos fora da faixa produzida: 0
+Frequência mínima/máxima dos IDs válidos: 1/1
+Travou: NÃO
+Tempo total (s): 0.148937

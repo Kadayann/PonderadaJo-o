@@ -1,0 +1,13 @@
+﻿Versão 1 — sem sincronização
+Buffer (N): 4
+Amostras previstas: 20000
+Amostras produzidas: 20000
+Amostras consumidas: 14493
+IDs únicos válidos consumidos: 14493
+Amostras perdidas: 5507
+Amostras duplicadas: 0
+Leituras inválidas: 2778
+IDs consumidos fora da faixa produzida: 0
+Frequência mínima/máxima dos IDs válidos: 1/1
+Travou: SIM
+Tempo total (s): 1.048395

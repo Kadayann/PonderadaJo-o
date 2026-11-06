@@ -1,0 +1,15 @@
+﻿Versão 3 — ordem incorreta dos semáforos
+Buffer (N): 4
+Amostras previstas: 20000
+Amostras produzidas: 4
+Amostras consumidas: 0
+IDs únicos válidos consumidos: 0
+Amostras perdidas: 4
+Amostras duplicadas: 0
+Leituras inválidas: 0
+IDs consumidos fora da faixa produzida: 0
+Frequência mínima/máxima dos IDs válidos: 0/0
+Buffer cheio antes de iniciar o consumidor: SIM
+Espera circular observada: SIM
+Travou: SIM
+Tempo total (s): 1.005515
